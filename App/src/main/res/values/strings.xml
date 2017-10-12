@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thyrst</string>
+    <string name="Recipes">Recipes</string>
+    <string name="HowTo">How To</string>
+    <string name="Favourites">Favourites</string>
+    <string name="Shoppinglist">Shoppinglist</string>
+    <string name="bold20sp">ACCESS YOUR FAVOURITES \n ANYTIME</string>
+    <string name="regular12sp">See something you like? \n Tap the heart on a recipe image to \n add it to your Favourites!</string>
+    <string name="bold12sp">FIND MY FAVOURITES</string>
+</resources>

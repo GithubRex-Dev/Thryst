@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/number_bg"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/teal_circle"/>
+
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/number_bg"
+        android:layout_alignTop="@+id/number_bg"
+        android:layout_alignRight="@+id/number_bg"
+        android:layout_alignBottom="@+id/number_bg"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:layout_weight="0.06"
+        android:text="number"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:fontFamily="sans-serif-light"
+        android:layout_toRightOf="@+id/item_number"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_14"/>
+</RelativeLayout>

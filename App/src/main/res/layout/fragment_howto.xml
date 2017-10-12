@@ -1,0 +1,27 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thyrst.app.Fragment.HowToFragment">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/how_to_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:background="@color/red"
+        app:theme="@style/AppTheme"/>
+
+    <ListView
+        android:id="@+id/list_howto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/dp_4"
+        android:clipToPadding="false"
+        android:divider="@color/transparent"
+        android:layout_below="@id/how_to_list_toolbar"
+        android:dividerHeight="0dp"/>
+
+</RelativeLayout>

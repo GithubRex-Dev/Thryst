@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thyrst.app.Fragment.ShoppinglistFragment">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/shopping_list_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        app:theme="@style/AppTheme"
+        app:popupTheme="@style/AppTheme"
+        android:background="@color/red"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/shopping_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/dp_4"
+        android:clipToPadding="false"
+        android:divider="@color/transparent"
+        android:layout_below="@id/shopping_list_toolbar"
+        android:dividerHeight="0dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        app:fabSize="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_white"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

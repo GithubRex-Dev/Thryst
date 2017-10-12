@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E8585A</color>
+    <color name="colorPrimaryDark">#D82045</color>
+    <color name="colorAccent">#E8585A</color>
+    <color name="stand_bg">#fff6f6f6</color>
+    <color name="white_pressed">#ffd5d5d5</color>
+    <color name="transparent">#0000</color>
+    <color name="divide">#ffe4e4e4</color>
+    <color name="red">#E8585A</color>
+    <color name="gray">#999</color>
+    <color name="toolBarGrey">#929292</color>
+    <color name="white">#fff</color>
+    <color name="yellow">#FFFF8D</color>
+    <color name="black">#000000</color>
+
+</resources>
